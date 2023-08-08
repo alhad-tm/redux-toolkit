@@ -1,0 +1,33 @@
+.productlist{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 8rem;
+    gap: 2rem;
+    /* align-items: center; */
+}
+.listc{
+   width: 300px;
+   height: 300px;
+   border-radius: 40px;
+   background-color: rgb(54, 53, 47);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.htitle{
+  font-size: 2rem;
+}
+.listc>img{
+  align-self: center;
+  margin-top: 30px;
+  border-radius: 20%;
+
+}
+.listc>img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition-duration: 0.4s;
+  /* transform: translateY(-20px) scale(1.1); */
+ 
+}

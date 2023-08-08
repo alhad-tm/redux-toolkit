@@ -1,0 +1,23 @@
+.add-cart-button{
+    background-color: rgb(32, 191, 32);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.after-cart{
+    display: flex;
+    align-items: center;
+}
+.cart-count{
+    margin: 0 10px;
+}
+.cart-counter-button{
+    background-color: rgb(204, 220, 29);
+    color: rgb(29, 26, 26);
+    padding: 4px 12px;
+    border-radius: 50px;
+    border: none;
+    margin: 10px 0;
+}
